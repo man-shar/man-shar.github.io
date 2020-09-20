@@ -1,0 +1,128 @@
+[
+  {
+    "name": "How herd immunity works",
+    "link": "https://graphics.reuters.com/HEALTH-CORONAVIRUS/HERD%20IMMUNITY%20(EXPLAINER)/gjnvwayydvw/index.html",
+    "year": 2020,
+    "img": "herd.mp4"
+  },
+  {
+    "name": "Singapore's COVID-19 explosion",
+    "link": "https://graphics.reuters.com/HEALTH-CORONAVIRUS/SINGAPORE-CLUSTERS/bdwpkdgngvm/index.html",
+    "year": 2020,
+    "img": "singapore.mp4"
+  },
+  {
+    "name": "Shifting smoke: California's wildfires",
+    "link": "https://graphics.reuters.com/USA-WILDFIRE/POLLUTION/xlbpgjgervq/index.html",
+    "year": 2020,
+    "img": "cali-smoke.mp4"
+  },
+  {
+    "name": "Assessing Australia's bushfires impact on wildlife",
+    "link": "https://graphics.reuters.com/AUSTRALIA-BUSHFIRES-WILDLIFE/0100B5672VM/index.html",
+    "year": 2020,
+    "img": "wildlife.mp4"
+  },
+  {
+    "name": "A day of COVID-19 deaths",
+    "link": "http://graphics.reuters.com/HEALTH-CORONAVIRUS/DEATHS/xlbpgobgapq/index.html",
+    "year": 2020,
+    "img": "clocks.mp4"
+  },
+  {
+    "name": "How big were Australia's bushfires?",
+    "link": "https://graphics.reuters.com/AUSTRALIA-BUSHFIRES-SCALE/0100B4VK2PN/index.html",
+    "year": 2020,
+    "img": "aus-scale.jpg"
+  },
+  {
+    "name": "The risks of swiftly spreading coronavirus research",
+    "link": "https://graphics.reuters.com/CHINA-HEALTH-RESEARCH/0100B5ES3MG/index.html",
+    "year": 2020,
+    "img": "speed-science.jpg"
+  },
+  {
+    "name": "Forests in flames: Australia’s bushfires from space",
+    "link": "https://graphics.reuters.com/AUSTRALIA-BUSHFIRES-SATELLITEIMAGES/0100B4R62H1/index.html",
+    "year": 2019,
+    "img": "aus-satellite.jpg"
+  },
+  {
+    "name": "Pollution in India: The world's worst air",
+    "link": "https://graphics.reuters.com/INDIA-POLLUTION-MAP/0100B30824L/index.html",
+    "year": 2019,
+    "img": "india-pollution.mp4"
+  },
+  {
+    "name": "Dangerous heights: Deaths on the Himalayas",
+    "link": "https://tmsnrt.rs/2r5hOS3",
+    "year": 2019,
+    "img": "himalayas.mp4"
+  },
+  {
+    "name": "Wikipedia wars: Hong Kong’s online frontline",
+    "link": "https://graphics.reuters.com/HONGKONG-PROTESTS-WIKIPEDIA/0100B33629V/index.html",
+    "year": 2019,
+    "img": "hk-wiki.mp4"
+  },
+  {
+    "name": "How big were the Hong Kong protests?",
+    "link": "https://graphics.reuters.com/HONGKONG-EXTRADITION-CROWDSIZE/0100B05W0BE/index.html",
+    "year": 2019,
+    "img": "head-count.mp4"
+  },
+  {
+    "name": "Sounds and slogans from the Hong Kong protests",
+    "link": "https://graphics.reuters.com/HONGKONG-EXTRADITION-SIGNS/0100B0630BZ/index.html",
+    "year": 2019,
+    "img": "hk-signs.jpg"
+  },
+  {
+    "name": "How India mobilised a million polling stations ",
+    "link": "https://graphics.reuters.com/INDIA-ELECTION-STATIONS/010092FY33Z/index.html",
+    "year": 2019,
+    "img": "india-polling.jpg"
+  },
+  {
+    "name": "What are baseball players' favourite cliches?",
+    "link": "https://www.washingtonpost.com/graphics/2018/sports/baseball-cliches/",
+    "year": 2018,
+    "img": "baseball.png"
+  },
+  {
+    "name": "Rising communal hate crimes in India",
+    "link": "https://www.washingtonpost.com/graphics/2018/world/reports-of-hate-crime-cases-have-spiked-in-india/",
+    "year": 2018,
+    "img": "india-hate.gif"
+  },
+  {
+    "name": "How big is Delhi's dowry \"bazaar\"?",
+    "link": "https://www.hindustantimes.com/interactives/delhi-dowry-bazaar/",
+    "year": 2017,
+    "img": "dowry.png"
+  },
+  {
+    "name": "Looking at grade inflation by a national board of education in India",
+    "link": "https://www.hindustantimes.com/interactives/cbse-results-2017-marks-inflation-decade/",
+    "year": 2017,
+    "img": "cbse.mp4"
+  },
+  {
+    "name": "A brief history of the US Open",
+    "link": "https://www.hindustantimes.com/interactives/a-brief-history-of-the-us-open/",
+    "year": 2017,
+    "img": "us-open.png"
+  },
+  {
+    "name": "Graphic design movements throughout history",
+    "link": "https://manas271196.github.io/Graphic-Design-Movements-Streamgraph/GraphicDesignStream.html",
+    "year": 2017,
+    "img": "graphic.png"
+  },
+  {
+    "name": "How society shaped Bollywood through the past century",
+    "link": "https://manas271196.github.io/BollyBlues/bolly.html",
+    "year": 2017,
+    "img": "bolly.png"
+  }
+]

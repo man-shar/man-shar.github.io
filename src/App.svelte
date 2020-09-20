@@ -1,0 +1,66 @@
+<script>
+  export let name;
+  export let projects;
+  import { Router, Route } from "svelte-routing";
+  import Divider from "./Divider.svelte";
+  import Projects from "./Projects.svelte";
+  import About from "./About.svelte";
+  export let url = "";
+</script>
+
+<style>
+  main {
+    text-align: center;
+    min-width: 240px;
+    margin: 0 auto;
+  }
+
+  #top {
+    background-color: #f6f6f6;
+    padding-top: 4rem;
+  }
+
+  h1 {
+    font-size: 7rem;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Merriweather", serif, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+      sans-serif;
+  }
+
+  .one-liner {
+    font-family: "Merriweather", serif, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+      sans-serif;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 640px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+</style>
+
+<main>
+  <div id="top">
+    <h1>{name}</h1>
+    <p class="one-liner">
+      Resident pixel pusher at Reuters Graphics, Singapore
+    </p>
+    <Divider />
+  </div>
+  <Router {url}>
+    <div>
+      <Route path="about" component={About} />
+      <Route path="/">
+        <Projects {projects} />
+      </Route>
+    </div>
+  </Router>
+
+  <!-- <Projects {projects} /> -->
+</main>

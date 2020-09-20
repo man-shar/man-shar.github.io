@@ -1,0 +1,9 @@
+#unbuilt files
+unbuilt/
+.DS_Store
+dist/
+node_modules/
+.cache/
+old-shit/
+project-files/
+google.json
