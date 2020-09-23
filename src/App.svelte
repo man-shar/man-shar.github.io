@@ -18,6 +18,9 @@
   #top {
     background-color: #f6f6f6;
     padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   h1 {
@@ -36,11 +39,19 @@
       sans-serif;
     margin-bottom: 5rem;
     font-size: 1.2rem;
+    width: 90%;
+    min-width: 300px;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
   }
 
   @media (max-width: 640px) {
     h1 {
-      font-size: 4rem;
+      font-size: 2.5rem;
     }
   }
 </style>

@@ -9,7 +9,9 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    margin-bottom: 2rem;
+    margin-bottom: 1.4rem;
+    display: flex;
+    justify-content: center;
   }
 </style>
 

@@ -12,16 +12,16 @@
     "img": "singapore.mp4"
   },
   {
-    "name": "Shifting smoke: California's wildfires",
-    "link": "https://graphics.reuters.com/USA-WILDFIRE/POLLUTION/xlbpgjgervq/index.html",
-    "year": 2020,
-    "img": "cali-smoke.mp4"
-  },
-  {
     "name": "Assessing Australia's bushfires impact on wildlife",
     "link": "https://graphics.reuters.com/AUSTRALIA-BUSHFIRES-WILDLIFE/0100B5672VM/index.html",
     "year": 2020,
     "img": "wildlife.mp4"
+  },
+  {
+    "name": "Shifting smoke: California's wildfires",
+    "link": "https://graphics.reuters.com/USA-WILDFIRE/POLLUTION/xlbpgjgervq/index.html",
+    "year": 2020,
+    "img": "cali-smoke.mp4"
   },
   {
     "name": "A day of COVID-19 deaths",

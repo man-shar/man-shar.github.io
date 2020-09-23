@@ -6,12 +6,14 @@
 
 <style>
   #divider {
-    width: 100%;
+    width: 90%;
     max-width: 1000px;
+    min-width: 300px;
     display: flex;
     margin: 0 auto;
     /* border-bottom: 1px solid black; */
     padding-bottom: 1rem;
+    justify-content: center;
   }
   .left {
     align-self: flex-start;
@@ -25,6 +27,7 @@
   span.divide::before {
     content: "|";
     padding: 0 1rem;
+    color: #c1c1c1;
   }
   #divider :global(a) {
     text-decoration: none;
@@ -40,14 +43,16 @@
 
 <div id="divider">
   <Router {url}>
-    <div class="left">
+    <div>
       <Link to="/">Published</Link>
       <span class="divide" />
       <Link to="about">About</Link>
+      <span class="divide" />
+      <a href="">Resume</a>
     </div>
-    <div class="space" />
-    <div class="right">
+    <!-- <div class="space" /> -->
+    <!-- <div class="right">
       <Links />
-    </div>
+    </div> -->
   </Router>
 </div>
