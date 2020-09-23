@@ -5,6 +5,7 @@
   import Divider from "./Divider.svelte";
   import Projects from "./Projects.svelte";
   import About from "./About.svelte";
+  import Resume from "./Resume.svelte";
   export let url = "";
 </script>
 
@@ -24,6 +25,7 @@
   }
 
   h1 {
+    text-align: center;
     font-size: 7rem;
     font-weight: 100;
     margin-bottom: 0;
@@ -47,11 +49,17 @@
     h1 {
       font-size: 3rem;
     }
+    .one-liner {
+      font-size: 1.1rem;
+    }
   }
 
   @media (max-width: 640px) {
     h1 {
       font-size: 2.5rem;
+    }
+    .one-liner {
+      font-size: 1.1rem;
     }
   }
 </style>
@@ -67,6 +75,7 @@
   <Router {url}>
     <div>
       <Route path="about" component={About} />
+      <Route path="resume" component={Resume} />
       <Route path="/">
         <Projects {projects} />
       </Route>

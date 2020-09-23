@@ -10,9 +10,7 @@ body {
   margin: 0;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "PT Sans", sans-serif, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
-    sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 label {
   display: block;
@@ -60,4 +58,20 @@ button:focus {
 
 .h-100 {
   height: 101% !important;
+}
+
+.hide-on-desktop {
+  display: none !important;
+}
+.hide-on-mobile {
+  display: block !important;
+}
+
+@media (max-width: 500px) {
+  .hide-on-desktop {
+    display: block !important;
+  }
+  .hide-on-mobile {
+    display: none !important;
+  }
 }

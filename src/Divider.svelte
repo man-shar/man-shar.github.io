@@ -1,5 +1,4 @@
 <script>
-  import Links from "./Links.svelte";
   import { Router, Link } from "svelte-routing";
   export let url = "";
 </script>
@@ -32,12 +31,19 @@
   #divider :global(a) {
     text-decoration: none;
     color: #c1c1c1;
+    font-size: 0.9rem;
   }
   #divider :global(a):hover {
-    text-decoration: underline;
+    border-bottom: 2px solid #c1c1c1;
   }
   #divider :global(a)[aria-current="page"] {
     color: #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
+  }
+  #divider :global(a):active,
+  #divider :global(a):focus {
+    outline: 0;
+    -moz-outline-style: none;
   }
 </style>
 
@@ -48,7 +54,8 @@
       <span class="divide" />
       <Link to="about">About</Link>
       <span class="divide" />
-      <a href="">Resume</a>
+      <Link to="resume">Resume</Link>
+      <!-- <a href="">Resume</a> -->
     </div>
     <!-- <div class="space" /> -->
     <!-- <div class="right">

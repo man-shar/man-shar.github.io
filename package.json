@@ -21,6 +21,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "mammoth": "^1.4.13",
+    "pdfjs-dist": "^2.5.207",
     "sirv-cli": "^1.0.0",
     "svelte-routing": "^1.4.2"
   }
