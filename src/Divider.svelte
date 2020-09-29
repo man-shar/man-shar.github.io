@@ -50,12 +50,16 @@
     color: #3a3a3a;
     border-bottom: 2px solid #3a3a3a;
   }
+  #divider :global(a)[aria-current="page"]:hover {
+    color: #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
+  }
   #divider :global(a):active,
   #divider :global(a):focus {
     outline: 0;
     -moz-outline-style: none;
   }
-  #divider :global(a):hover {
+  #divider :global(a.icon):hover {
     color: #3a3a3a;
   }
   .flex-left {
