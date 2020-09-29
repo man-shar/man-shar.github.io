@@ -41,7 +41,10 @@
   }
   #divider :global(a.icon) {
     position: relative;
-    top: 3px;
+    padding: 0 0.5rem;
+  }
+  #divider :global(a.icon-logo) {
+    top: 1px;
   }
   #divider :global(a:not(.icon)):hover {
     border-bottom: 2px solid #c1c1c1;
@@ -83,15 +86,16 @@
     </div> -->
   </Router>
   <div class="flex-right">
-    <a class="icon" title="Resume" href="assets/resume.pdf"><Icon
-        icon={faFileAlt} /></a>
-    <!-- <span class="divide" /> -->
-    <!-- <a class="icon"><Icon icon={faTwitter} /></a> -->
-    <span class="divide" />
+    <a class="icon" title="Resume" href="assets/resume.pdf">c.v.</a>
     <a
-      class="icon"
+      class="icon icon-logo"
       title="Github"
       target="_blank"
       href="https://github.com/manas271196"><Icon icon={faGithub} /></a>
+    <a
+      class="icon icon-logo"
+      title="Twitter"
+      target="_blank"
+      href="https://twitter.com/manshar_"><Icon icon={faTwitter} /></a>
   </div>
 </div>
