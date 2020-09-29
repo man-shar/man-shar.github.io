@@ -1,4 +1,5 @@
 import svelte from "rollup-plugin-svelte";
+import css from "rollup-plugin-css-only";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
@@ -41,6 +42,7 @@ export default {
     file: "docs/build/bundle.js",
   },
   plugins: [
+    css({ output: "docs/build/extra.css" }),
     json(),
     svelte({
       hydratable: true,

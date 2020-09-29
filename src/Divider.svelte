@@ -1,5 +1,10 @@
 <script>
   import { Router, Link } from "svelte-routing";
+  import Icon from "fa-svelte";
+  import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
+  import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
+  import { fa, faFileAlt } from "@fortawesome/free-solid-svg-icons/faFileAlt";
+
   export let url = "";
 </script>
 
@@ -12,7 +17,7 @@
     margin: 0 auto;
     /* border-bottom: 1px solid black; */
     padding-bottom: 1rem;
-    justify-content: center;
+    /* justify-content: center; */
   }
   .left {
     align-self: flex-start;
@@ -32,8 +37,13 @@
     text-decoration: none;
     color: #c1c1c1;
     font-size: 0.9rem;
+    cursor: pointer;
   }
-  #divider :global(a):hover {
+  #divider :global(a.icon) {
+    position: relative;
+    top: 3px;
+  }
+  #divider :global(a:not(.icon)):hover {
     border-bottom: 2px solid #c1c1c1;
   }
   #divider :global(a)[aria-current="page"] {
@@ -45,21 +55,39 @@
     outline: 0;
     -moz-outline-style: none;
   }
+  #divider :global(a):hover {
+    color: #3a3a3a;
+  }
+  .flex-left {
+    flex-grow: 2;
+    text-align: left;
+  }
+  .flex-right {
+  }
 </style>
 
 <div id="divider">
   <Router {url}>
-    <div>
+    <div class="flex-left">
       <Link to="/">Published</Link>
       <span class="divide" />
       <Link to="about">About</Link>
-      <span class="divide" />
-      <Link to="resume">Resume</Link>
-      <!-- <a href="">Resume</a> -->
     </div>
     <!-- <div class="space" /> -->
     <!-- <div class="right">
       <Links />
     </div> -->
   </Router>
+  <div class="flex-right">
+    <a class="icon" title="Resume" href="assets/resume.pdf"><Icon
+        icon={faFileAlt} /></a>
+    <!-- <span class="divide" /> -->
+    <!-- <a class="icon"><Icon icon={faTwitter} /></a> -->
+    <span class="divide" />
+    <a
+      class="icon"
+      title="Github"
+      target="_blank"
+      href="https://github.com/manas271196"><Icon icon={faGithub} /></a>
+  </div>
 </div>
