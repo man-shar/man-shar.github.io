@@ -79,6 +79,8 @@
       <Link to="/">Published</Link>
       <span class="divide" />
       <Link to="about">About</Link>
+      <span class="divide" />
+      <a class="" title="Resume" href="assets/resume.pdf">c.v.</a>
     </div>
     <!-- <div class="space" /> -->
     <!-- <div class="right">
@@ -86,7 +88,6 @@
     </div> -->
   </Router>
   <div class="flex-right">
-    <a class="icon" title="Resume" href="assets/resume.pdf">c.v.</a>
     <a
       class="icon icon-logo"
       title="Github"
