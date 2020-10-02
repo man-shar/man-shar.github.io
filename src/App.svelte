@@ -67,7 +67,7 @@
 <main>
   <div id="top">
     <h1>{name}</h1>
-    <p class="one-liner">Pixel pusher</p>
+    <p class="one-liner">Pixel pusher and masala chai enthusiast</p>
     <Divider />
   </div>
   <Router {url}>
