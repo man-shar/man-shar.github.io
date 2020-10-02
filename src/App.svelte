@@ -67,9 +67,7 @@
 <main>
   <div id="top">
     <h1>{name}</h1>
-    <p class="one-liner">
-      Resident pixel pusher at Reuters Graphics, Singapore
-    </p>
+    <p class="one-liner">Pixel pusher</p>
     <Divider />
   </div>
   <Router {url}>
