@@ -91,7 +91,7 @@
       class="icon icon-logo"
       title="Github"
       target="_blank"
-      href="https://github.com/manas271196"><Icon icon={faGithub} /></a>
+      href="https://github.com/man-shar"><Icon icon={faGithub} /></a>
     <a
       class="icon icon-logo"
       title="Twitter"

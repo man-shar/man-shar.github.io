@@ -3,12 +3,11 @@
 
 <div id="about-container">
   <p>
-    I was born and raised in the city of Lucknow, Uttar Pradesh. The city's
-    culture and mannerisms are still a big part of who I am (I hope).
+    I was born and raised in the city of Lucknow, Uttar Pradesh.
   </p>
   <p>I studied design at IIT, Guwahati.</p>
   <p>
-    I have previously been an intern at the Info Design Lab at IDC, Hindustan
+    I have previously interned at the Info Design Lab at IDC, Hindustan
     Times, Scroll and The Washington Post.
   </p>
   <p>
