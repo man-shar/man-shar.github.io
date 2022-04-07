@@ -7,6 +7,7 @@
   import About from "./About.svelte";
   import Resume from "./Resume.svelte";
   export let url = "";
+
 </script>
 
 <style>
@@ -67,7 +68,7 @@
 <main>
   <div id="top">
     <h1>{name}</h1>
-    <p class="one-liner">Pixel pusher and masala chai enthusiast</p>
+    <p class="one-liner">Read | Understand | Explain</p>
     <Divider />
   </div>
   <Router {url}>
@@ -79,6 +80,4 @@
       </Route>
     </div>
   </Router>
-
-  <!-- <Projects {projects} /> -->
 </main>

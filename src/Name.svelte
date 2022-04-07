@@ -5,4 +5,4 @@
 <style>
 </style>
 
-<div>{name}</div>
+<div>{@html name}</div>

@@ -1,15 +1,39 @@
 [
   {
+    "name": "Tonga eruption's record lightning storm",
+    "link": "https://graphics.reuters.com/TONGA-VOLCANO/LIGHTNING/zgpomjdbypd/index.html",
+    "year": 2022,
+    "img": "tonga.mp4"
+  },
+  {
     "name": "How herd immunity works",
     "link": "https://graphics.reuters.com/HEALTH-CORONAVIRUS/HERD%20IMMUNITY%20(EXPLAINER)/gjnvwayydvw/index.html",
     "year": 2020,
     "img": "herd.mp4"
   },
   {
+    "name": "The age of the \"megafire\" </br> Analysing a century's worth of fire data",
+    "link": "https://graphics.reuters.com/USA-WILDFIRES/EXTREMES/qzjvqmmravx/",
+    "year": 2021,
+    "img": "megafires.mp4"
+  },
+  {
     "name": "Singapore's COVID-19 explosion",
     "link": "https://graphics.reuters.com/HEALTH-CORONAVIRUS/SINGAPORE-CLUSTERS/bdwpkdgngvm/index.html",
     "year": 2020,
     "img": "singapore.mp4"
+  },
+  {
+    "name": "Devoured: How China’s largest freshwater lake was decimated by sand mining",
+    "link": "https://graphics.reuters.com/GLOBAL-ENVIRONMENT/SAND-POYANG/qzjpqxxabvx/index.html",
+    "year": 2021,
+    "img": "devoured.mp4"
+  },
+  {
+    "name": "How CalFire's aircraft work in tandem to stop blazes",
+    "link": "https://graphics.reuters.com/CALIFORNIA-WILDFIRE/AIRCRAFT/bdwpkzmyyvm/index.html",
+    "year": 2020,
+    "img": "air-attack.mp4"
   },
   {
     "name": "Assessing Australia's bushfires impact on wildlife",

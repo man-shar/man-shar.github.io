@@ -4,7 +4,7 @@
   import Name from "./Name.svelte";
 </script>
 
-<style>
+<style >
   .project {
     margin: 1rem;
     margin-top: 4rem;
@@ -28,11 +28,23 @@
       width: 90%;
     }
   }
+
+  :global(#tonga > .project-image) {
+    background-color: #10071a;;
+  }
+
+  :global(#megafires > .project-image) {
+    background-color: black;
+  }
+  :global(#megafires > .project-image > video) {
+    position: relative;
+    top: 15px;
+  }
 </style>
 
 <a target="_blank" href={project.link}>
-  <div class="project">
+  <div class="project" id="{project.img.split(".")[0]}">
     <Photo path={project.img} />
-    <Name name={project.name} />
+    <Name name={project.name}/>
   </div>
 </a>

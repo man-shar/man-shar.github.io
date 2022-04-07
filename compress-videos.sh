@@ -8,3 +8,8 @@ ffmpeg -i ./project-files/videos-compressed/hk-wiki.mp4 -an ./docs/assets/hk-wik
 ffmpeg -i ./project-files/videos-compressed/india-pollution.mp4 -an ./docs/assets/india-pollution.mp4
 ffmpeg -i ./project-files/videos-compressed/singapore.mp4 -an ./docs/assets/singapore.mp4
 ffmpeg -i ./project-files/videos-compressed/wildlife.mp4 -an ./docs/assets/wildlife.mp4
+
+ffmpeg -i ./project-files/devoured-trimmed.mov -c:v libx264 -filter:v scale="512:-1" -an -movflags +faststart ./docs/assets/devoured.mp4
+ffmpeg -i ./project-files/megafire-trimmed.mov -c:v libx264 -filter:v scale="512:-1" -an -movflags +faststart ./docs/assets/megafires.mp4
+ffmpeg -i ./project-files/air-attack-trimmed.mov -c:v libx264 -filter:v scale="512:-1" -an -movflags +faststart ./docs/assets/air-attack.mp4
+ffmpeg -i ./project-files/tonga.gif -c:v libx264 -filter:v scale="512:-1" -an -movflags +faststart ./docs/assets/tonga.mp4
