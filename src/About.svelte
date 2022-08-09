@@ -9,7 +9,7 @@
     Times, Scroll and The Washington Post.
   </p>
   <p>
-    I've had the great fortune of learning from the most talented and supportive
+    I've had the immense fortune of learning from the most talented and supportive
     people in the industry.
   </p>
   <p>
