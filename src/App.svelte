@@ -63,6 +63,9 @@
       font-size: 1.1rem;
     }
   }
+  .page-container {
+    padding-bottom: 50px;
+  }
 </style>
 
 <main>
@@ -72,7 +75,7 @@
     <Divider />
   </div>
   <Router {url}>
-    <div>
+    <div class="page-container">
       <Route path="about" component={About} />
       <Route path="resume" component={Resume} />
       <Route path="/">
