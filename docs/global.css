@@ -75,3 +75,9 @@ button:focus {
     display: none !important;
   }
 }
+
+.one-liner a {
+  color: #3a3a3a;
+  display: inline-block;
+  padding: 5px;
+}
