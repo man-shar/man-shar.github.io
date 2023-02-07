@@ -71,7 +71,6 @@
 <main>
   <div id="top">
     <h1>{name}</h1>
-    <p class="one-liner"><a href="https://graphics.reuters.com/" target="_blank">@reutersgraphics</a></p>
     <Divider />
   </div>
   <Router {url}>
