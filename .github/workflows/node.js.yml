@@ -19,3 +19,6 @@ jobs:
         run: yarn
       - name: Build
         run: yarn build
+      # Commit all changed files back to the repository
+      - name: Commit
+      - uses: stefanzweifel/git-auto-commit-action@v4
