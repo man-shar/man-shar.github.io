@@ -3,7 +3,7 @@
   import Icon from "fa-svelte";
   import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
   import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
-  import { faEnvelope } from "@fortawesome/free-brands-svg-icons/faEnvelope";
+  import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 
   export let url = "";
 </script>
