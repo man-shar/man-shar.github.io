@@ -3,6 +3,7 @@
   import Icon from "fa-svelte";
   import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
   import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
+  import { faEnvelope } from "@fortawesome/free-brands-svg-icons/faEnvelope";
 
   export let url = "";
 </script>
@@ -97,5 +98,10 @@
       title="Twitter"
       target="_blank"
       href="https://twitter.com/manshar_"><Icon icon={faTwitter} /></a>
+    <a
+      class="icon icon-logo"
+      title="Email"
+      target="_blank"
+      href="mailto:manasdotsharma@gmail.com"><Icon icon={faEnvelope} /></a>
   </div>
 </div>
