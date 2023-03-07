@@ -9,7 +9,7 @@ import json from "@rollup/plugin-json";
 const production = !process.env.ROLLUP_WATCH;
 
 function serve() {
-  let server;
+  let server; 
 
   function toExit() {
     if (server) server.kill(0);
