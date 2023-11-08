@@ -14,10 +14,10 @@
     <h1>{name}</h1>
     <div class="jobs">
       <p class="current">
-        currently @<a target="_blank" href="https://defog.ai/">defog.ai</a>
+        Currently @<a target="_blank" href="https://defog.ai/">defog.ai</a>
       </p>
       <p class="past">
-        <span class="">past</span>: news gfx at
+        <span class="">Past</span>: News gfx at
         <a target="_blank" href="https://www.reuters.com/graphics/">Reuters</a>
         |
         <a target="_blank" href="https://twitter.com/PostGraphics">WaPo</a> | HT
