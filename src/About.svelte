@@ -1,6 +1,7 @@
 <script>
   import Award from "./Award.svelte";
   import awards from "./awards.json";
+  // test change
 </script>
 
 <div id="about-container">

@@ -7,6 +7,7 @@
   import About from "./About.svelte";
   import Resume from "./Resume.svelte";
   export let url = "";
+  // test change 2
 </script>
 
 <main>
@@ -89,14 +90,32 @@
     font-weight: 100;
     margin-bottom: 0;
     margin-top: 0;
-    font-family: "Merriweather", serif, -apple-system, BlinkMacSystemFont,
-      "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    font-family:
+      "Merriweather",
+      serif,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      Oxygen-Sans,
+      Ubuntu,
+      Cantarell,
+      "Helvetica Neue",
       sans-serif;
   }
 
   .one-liner {
-    font-family: "Merriweather", serif, -apple-system, BlinkMacSystemFont,
-      "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    font-family:
+      "Merriweather",
+      serif,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      Oxygen-Sans,
+      Ubuntu,
+      Cantarell,
+      "Helvetica Neue",
       sans-serif;
     margin-bottom: 5rem;
     font-size: 1.2rem;
