@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
+    "create-test-file": "touch test.js",
     "dev": "rollup -c -w",
     "start": "sirv docs -s",
     "get-projects": "node get-projects.js",

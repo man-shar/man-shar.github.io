@@ -1,4 +1,4 @@
-name: Build
+name: Karan test file
 
 on:
   push:
@@ -17,8 +17,8 @@ jobs:
           cache: "yarn"
       - name: Install dependencies
         run: yarn
-      - name: Build
-        run: yarn build
+      - name: Karan test file
+        run: yarn create-test-file
       # Commit all changed files back to the repository
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4
